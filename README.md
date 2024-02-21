@@ -1,31 +1,19 @@
 # Developing a Single Page App with FastAPI and React
 
-### Want to learn how to build this?
 
-Check out the [post](https://testdriven.io/blog/fastapi-react/).
+## How to Build
 
-## Want to use this project?
+1. Build FastAPI backend and React frontend with docker compose file
 
-1. Fork/Clone
+```sh
+docker compose up -d --build 
+```
 
-1. Run the server-side FastAPI app in one terminal window:
+2. Check your app in localhost:3000
 
-    ```sh
-    $ cd backend
-    $ python3.9 -m venv env
-    $ source env/bin/activate
-    (env)$ pip install -r requirements.txt
-    (env)$ python main.py
-    ```
 
-    Navigate to [http://localhost:8000](http://localhost:8000)
+## References
 
-1. Run the client-side React app in a different terminal window:
-
-    ```sh
-    $ cd frontend
-    $ npm install
-    $ npm run start
-    ```
-
-    Navigate to [http://localhost:3000](http://localhost:3000)
+- Blog post: https://testdriven.io/blog/fastapi-react/
+- Original repo: https://github.com/testdrivenio/fastapi-react
+- React fetch, axios: https://www.youtube.com/watch?v=d6suykcsNeY
